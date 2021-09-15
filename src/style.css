@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+:root{
+    --primary-color:#4F46E5;
+}
+
+.pagewrap{
+    display: flex;
+
+    /*vertically stack children*/
+    flex-direction: column;
+
+    /* expand to take full height of page */
+    /* min-height overrides both height & max-height */
+    min-height: 100vh; 
+
+  } 
+  main{
+    flex-grow: 1;
+  }
+  .input-container{
+    padding: 1rem 1rem;
+    background: white;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 18px rgba(146,161,176,.15);
+    /* margin: auto; */
+    margin: 1rem 10rem 0rem 10rem;
+    min-height:60vh;
+}
+input,label{
+    display:block;
+    font-size: x-large;
+}
+label{
+    color: var(--primary-color);
+}
+input{
+    margin-bottom:0.5rem;
+}
+#side-a{
+    border:none;
+    box-shadow: 10px 10px 25px #E5E7EB;
+    padding:1rem 2rem 1rem 2rem;
+    font-size: 1rem;
+    margin:1rem;
+    border-radius: 0.5rem;
+}
+#side-b{
+    border:none;
+    box-shadow: 10px 10px 25px #E5E7EB;
+    padding:1rem 2rem 1rem 2rem;
+    font-size: 1rem;
+    margin:1rem;
+    border-radius: 0.5rem;
+}
+#angle-1{
+    border:none;
+    box-shadow: 10px 10px 25px #E5E7EB;
+    padding:1rem 2rem 1rem 2rem;
+    font-size: 1rem;
+    margin:1rem;
+    border-radius: 0.5rem;
+}
+#angle-2{
+    border:none;
+    box-shadow: 10px 10px 25px #E5E7EB;
+    padding:1rem 2rem 1rem 2rem;
+    font-size: 1rem;
+    margin:1rem;
+    border-radius: 0.5rem;
+}
+#angle-3{
+    border:none;
+    box-shadow: 10px 10px 25px #E5E7EB;
+    padding:1rem 2rem 1rem 2rem;
+    font-size: 1rem;
+    margin:1rem;
+    border-radius: 0.5rem;
+}
+#side-1{
+    border:none;
+    box-shadow: 10px 10px 25px #E5E7EB;
+    padding:1rem 2rem 1rem 2rem;
+    font-size: 1rem;
+    margin:1rem;
+    border-radius: 0.5rem;
+}
+#side-2{
+    border:none;
+    box-shadow: 10px 10px 25px #E5E7EB;
+    padding:1rem 2rem 1rem 2rem;
+    font-size: 1rem;
+    margin:1rem;
+    border-radius: 0.5rem;
+}
+#side-3{
+    border:none;
+    box-shadow: 10px 10px 25px #E5E7EB;
+    padding:1rem 2rem 1rem 2rem;
+    font-size: 1rem;
+    margin:1rem;
+    border-radius: 0.5rem;
+}
+#triangle-btn{
+    padding: 0rem 0rem;
+    width: auto;
+    background: white;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold ;
+    margin: auto;
+    color: white;
+    background-color: var(--primary-color);
+    min-height:5vh;
+}
+#submit-answers-btn{
+    padding: 0rem 0rem;
+    width: auto;
+    background: white;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold ;
+    margin: auto;
+    color: white;
+    background-color: var(--primary-color);
+    min-height:5vh;
+}
+#message{
+    font-size:xx-large;
+    color: var(--primary-color);
+}
+#calculate-btn{
+    padding: 0rem 0rem;
+    width: auto;
+    background: white;
+    border-radius: 0.5rem;
+    /* box-shadow: 0 1px 18px #991B1B; */
+    font-size: 1.2rem;
+    font-weight: bold ;
+    margin: auto;
+    color: white;
+    background-color: var(--primary-color);
+    min-height:5vh;
+}
+.navigation{
+
+  /* background-color: var(--primary-color); */
+    background: linear-gradient(to right, #3730A3, #3730A3 33.33%, #3730A3 33.33%, #2563EB 66.66%, #2563EB 66.66%);
+
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    /* margin: auto; */
+    box-shadow: 0 1px 4px rgba(47, 138, 230, 0.15);
+    padding:1.5rem 2rem 1.5rem 5rem;
+    max-width: auto;
+    /* color: white; */
+}
+
+.heading{
+    color: white;
+    font-size: 2rem;
+    
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+#btn{
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: white;
+    font-size: 200%;
+    width:30%;
+    cursor: pointer;
+    background: linear-gradient(to right, #3730A3, #3730A3 33.33%, #3730A3 33.33%, #2563EB 66.66%, #2563EB 66.66%);
+        
+    
+}
+.list-non-bullet{
+    list-style: none;
+    /* padding-inline-start: 0px; */
+}
+.nav-pills {
+    text-align: right;
+}
+.list-items-inline{
+    display:inline;
+    padding:0rem 0.5rem;
+}
+.links{
+    color: white;
+    border-bottom: none;
+    text-decoration: none;
+   }
+.current-link {
+    font-weight: bold;
+    margin: 1px;
+    margin-bottom: 3px ;
+    
+    border-bottom: 2px solid white;
+    /* border-bottom: 2px solid var(--purple); */
+}   
+.footer{
+    /* background-color:var(--light-gray); */
+    background: linear-gradient(to right, #3730A3, #3730A3 33.33%, #3730A3 33.33%, #2563EB 66.66%, #2563EB 66.66%);
+
+    background-color: white;
+    padding:2rem 0rem;
+    text-align: center;
+    color:black;
+    border-top-right-radius:1rem;
+    box-shadow: 0 1px 25px #E5E7EB;
+    margin-top: 3rem;
+    display:flexbox;
+    flex-direction: coloumn;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+    padding-inline-start:1px;
+}
+.footer .links{
+    color:black;
+}
+
+.footer ul{
+    padding-left:0px;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0.25rem;
+}
+
+.footer-icon{
+    width:2rem;
+} 
+
+@media (max-width: 800px)  {
+    .input-container{
+        padding: 0rem 0rem;
+        background: white;
+        border-radius: 0.5rem;
+        box-shadow: 0 1px 1px rgba(146,161,176,.15);
+        margin: auto;
+        min-height:0;
+    }
+    #btn{
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        color: white;
+        font-size: 100%;
+        size: 1rem;
+        width:auto;
+        cursor: pointer;
+        background: linear-gradient(to right, #3730A3, #3730A3 33.33%, #3730A3 33.33%, #2563EB 66.66%, #2563EB 66.66%);
+            
+        
+    }
+    .heading{
+        color: white;
+        font-size: 1.5rem;
+        
+    }
+    .list-items-inline{
+        display:table;
+        padding:0.5rem 0.5rem;
+        
+    }
+    #calculate-btn{
+        padding: 0rem 0rem;
+        width: auto;
+        background: white;
+        border-radius: 0.5rem;
+        /* box-shadow: 0 1px 18px #991B1B; */
+        font-size: 1rem;
+        font-weight: bold ;
+        margin: auto;
+        color: white;
+        background-color: var(--primary-color);
+        min-height:4vh;
+    }
+}
