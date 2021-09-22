@@ -3,7 +3,8 @@ const submitBtn=document.querySelector("#submit-answers-btn");
 const message=document.querySelector("#message");
 
 const correctAns=["90°",
-"Acute","Equilateral",
+"Acute",
+"Equilateral",
 "2 congruent sides",
 "180 degrees",
 "100°",
