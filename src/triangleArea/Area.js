@@ -9,7 +9,8 @@ function calculateArea(){
     val2=Number(side2.value);
     val3=Number(side3.value);
     console.log("val1",val1);
-    if ((val1 || val2 || val3)==""){
+    if (val1=="" || val2=="" || val3==""){
+        message.innerHTML="Please enter all input values"
         return
     }
     if((val1 || val2 || val3)<=0){

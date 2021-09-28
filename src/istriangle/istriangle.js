@@ -10,8 +10,11 @@ function isTriangle(){
     val1=Number(angle1.value);
     val2=Number(angle2.value);
     val3=Number(angle3.value);
-    
-    if((val1 || val2 || val3)<=0){
+    if(val1=="" || val2=="" ||val3==""){
+        message.innerHTML="Please enter all input values";
+        return
+    }
+    if((val1<=0 || val2<=0 || val3<=0)){
         message.innerHTML="All Angle should be greater than 0";
         return 
     }
