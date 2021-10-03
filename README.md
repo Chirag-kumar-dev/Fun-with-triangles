@@ -6,3 +6,4 @@ In this app there are four sections-
 ### Quiz on Triangle
 
 Go with this app for fun.
+link-https://fun-with-triangles-chirag.netlify.app/
